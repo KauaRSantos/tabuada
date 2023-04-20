@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <header>
+        <img src="https://play-lh.googleusercontent.com/jt4oS-Onj-o3VE5m9x5QxiYt7sMOKj4cYsZjd48x9RJzJHtAstkF1PbM64_U6QV_ug"
+            alt="">
+        <h1> MathTable </h1>
+        <input type="checkbox" id="toggle-mode" class="checkbox">
+        <label for="toggle-mode" class="switch">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+            
+            <div class="ball"></div>
+        </label>
+
+
+    </header>
+    <div class="idk">
+        <h1 class="h1-body">Tabuada Dinamica</h1>
+
+        <p>Digite um número</p>
+  <form class="pesquisa">
+        <input type="text" name="" id="numero">
+
+        <datalist id="historico">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+           
+        </datalist>
+    </form>
+        <button onclick="gerarTabuada()" class="exibir">Exibir</button>
+    </div>
+
+    <div class="idk2">
+        <table id="tabela-tabuada" class="multi"></table>
+    </div>
+
+    <footer>Desenvolvido Por kauã.kaze@gmail.com</footer>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
